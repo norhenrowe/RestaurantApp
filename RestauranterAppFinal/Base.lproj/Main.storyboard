@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="gyQ-US-X5S">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="tp7-ZJ-0iv">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
@@ -127,6 +127,51 @@
             </objects>
             <point key="canvasLocation" x="1278" y="-696"/>
         </scene>
+        <!--Pay-->
+        <scene sceneID="Xj6-4q-keG">
+            <objects>
+                <viewController id="RLz-td-IxU" customClass="PayViewController" customModule="RestauranterAppFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Or8-lO-Pcm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Pay" id="2gI-wr-YU6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tgd-sx-RlK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3570" y="-1740"/>
+        </scene>
+        <!--Order-->
+        <scene sceneID="b0Q-RE-UR3">
+            <objects>
+                <viewController id="UnE-dG-rfm" customClass="OrderViewController" customModule="RestauranterAppFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="k2h-4T-rPt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Order" id="Qda-Ix-zfR"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jkv-yM-tOv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3570" y="-2384"/>
+        </scene>
+        <!--Deals-->
+        <scene sceneID="vMY-ZR-UmV">
+            <objects>
+                <viewController id="eCT-ac-atY" customClass="DealsViewController" customModule="RestauranterAppFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ob9-5C-weh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Deals" id="g1w-Vx-QvG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nx0-AM-lAY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3570" y="-1108"/>
+        </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="fXs-eK-G8e">
             <objects>
@@ -183,6 +228,26 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jNW-el-SUf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2190" y="-696"/>
+        </scene>
+        <!--Restauranter Tab Bar Controller-->
+        <scene sceneID="zwN-Tg-8Ov">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="tp7-ZJ-0iv" customClass="RestauranterTabBarController" customModule="RestauranterAppFinal" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="XCW-rZ-kqB">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="UnE-dG-rfm" kind="relationship" relationship="viewControllers" id="G4m-bz-FyN"/>
+                        <segue destination="RLz-td-IxU" kind="relationship" relationship="viewControllers" id="OkS-tO-hKZ"/>
+                        <segue destination="eCT-ac-atY" kind="relationship" relationship="viewControllers" id="bws-HF-CDB"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EVo-v9-6Yo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2844" y="-1740"/>
         </scene>
     </scenes>
     <resources>
