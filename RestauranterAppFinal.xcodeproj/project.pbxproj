@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		64556D631A3A42BA00F40277 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556D621A3A42BA00F40277 /* AppDelegate.swift */; };
-		64556D651A3A42BA00F40277 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556D641A3A42BA00F40277 /* ViewController.swift */; };
 		64556D681A3A42BA00F40277 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64556D661A3A42BA00F40277 /* Main.storyboard */; };
 		64556D6A1A3A42BA00F40277 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64556D691A3A42BA00F40277 /* Images.xcassets */; };
 		64556D6D1A3A42BA00F40277 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64556D6B1A3A42BA00F40277 /* LaunchScreen.xib */; };
 		64556D791A3A42BB00F40277 /* RestauranterAppFinalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556D781A3A42BB00F40277 /* RestauranterAppFinalTests.swift */; };
+		64556D9F1A3E110900F40277 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556D9E1A3E110900F40277 /* OrderViewController.swift */; };
+		64556DA11A3E111800F40277 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556DA01A3E111800F40277 /* PayViewController.swift */; };
+		64556DA31A3E112E00F40277 /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556DA21A3E112E00F40277 /* DealsViewController.swift */; };
+		64556DA61A3E121D00F40277 /* RestauranterTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556DA51A3E121D00F40277 /* RestauranterTabBarController.swift */; };
+		64F573051A3FDB8D004A7125 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F573041A3FDB8D004A7125 /* LoginViewController.swift */; };
+		64F573071A3FE1DC004A7125 /* Bitmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F573061A3FE1DC004A7125 /* Bitmap.png */; };
+		64F573091A3FE29F004A7125 /* Lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F573081A3FE29F004A7125 /* Lock.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,13 +35,19 @@
 		64556D5D1A3A42BA00F40277 /* RestauranterAppFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestauranterAppFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64556D611A3A42BA00F40277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64556D621A3A42BA00F40277 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		64556D641A3A42BA00F40277 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		64556D671A3A42BA00F40277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		64556D691A3A42BA00F40277 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		64556D6C1A3A42BA00F40277 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		64556D721A3A42BB00F40277 /* RestauranterAppFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestauranterAppFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64556D771A3A42BB00F40277 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64556D781A3A42BB00F40277 /* RestauranterAppFinalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestauranterAppFinalTests.swift; sourceTree = "<group>"; };
+		64556D9E1A3E110900F40277 /* OrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		64556DA01A3E111800F40277 /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
+		64556DA21A3E112E00F40277 /* DealsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
+		64556DA51A3E121D00F40277 /* RestauranterTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestauranterTabBarController.swift; sourceTree = "<group>"; };
+		64F573041A3FDB8D004A7125 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		64F573061A3FE1DC004A7125 /* Bitmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap.png; sourceTree = "<group>"; };
+		64F573081A3FE29F004A7125 /* Lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lock.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,9 +90,11 @@
 			isa = PBXGroup;
 			children = (
 				64556D621A3A42BA00F40277 /* AppDelegate.swift */,
-				64556D641A3A42BA00F40277 /* ViewController.swift */,
 				64556D661A3A42BA00F40277 /* Main.storyboard */,
+				64556DA41A3E113D00F40277 /* View Controllers */,
 				64556D691A3A42BA00F40277 /* Images.xcassets */,
+				64F573061A3FE1DC004A7125 /* Bitmap.png */,
+				64F573081A3FE29F004A7125 /* Lock.png */,
 				64556D6B1A3A42BA00F40277 /* LaunchScreen.xib */,
 				64556D601A3A42BA00F40277 /* Supporting Files */,
 			);
@@ -110,6 +124,18 @@
 				64556D771A3A42BB00F40277 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64556DA41A3E113D00F40277 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				64556D9E1A3E110900F40277 /* OrderViewController.swift */,
+				64556DA51A3E121D00F40277 /* RestauranterTabBarController.swift */,
+				64F573041A3FDB8D004A7125 /* LoginViewController.swift */,
+				64556DA01A3E111800F40277 /* PayViewController.swift */,
+				64556DA21A3E112E00F40277 /* DealsViewController.swift */,
+			);
+			name = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +220,8 @@
 			files = (
 				64556D681A3A42BA00F40277 /* Main.storyboard in Resources */,
 				64556D6D1A3A42BA00F40277 /* LaunchScreen.xib in Resources */,
+				64F573091A3FE29F004A7125 /* Lock.png in Resources */,
+				64F573071A3FE1DC004A7125 /* Bitmap.png in Resources */,
 				64556D6A1A3A42BA00F40277 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,8 +240,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				64556D651A3A42BA00F40277 /* ViewController.swift in Sources */,
+				64F573051A3FDB8D004A7125 /* LoginViewController.swift in Sources */,
+				64556DA31A3E112E00F40277 /* DealsViewController.swift in Sources */,
+				64556DA61A3E121D00F40277 /* RestauranterTabBarController.swift in Sources */,
 				64556D631A3A42BA00F40277 /* AppDelegate.swift in Sources */,
+				64556DA11A3E111800F40277 /* PayViewController.swift in Sources */,
+				64556D9F1A3E110900F40277 /* OrderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +437,7 @@
 				64556D7E1A3A42BB00F40277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		64556D7F1A3A42BB00F40277 /* Build configuration list for PBXNativeTarget "RestauranterAppFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +446,7 @@
 				64556D811A3A42BB00F40277 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
