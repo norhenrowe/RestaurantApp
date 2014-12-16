@@ -18,7 +18,6 @@
 		64556DA61A3E121D00F40277 /* RestauranterTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556DA51A3E121D00F40277 /* RestauranterTabBarController.swift */; };
 		6499B45F1A3FE82D008FA44F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499B45E1A3FE82D008FA44F /* SignUpViewController.swift */; };
 		6499B4611A3FE8DB008FA44F /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6499B4601A3FE8DB008FA44F /* ForgotPasswordViewController.swift */; };
-		6499B4651A3FEBB4008FA44F /* purchase_order-100.png in Resources */ = {isa = PBXBuildFile; fileRef = 6499B4641A3FEBB4008FA44F /* purchase_order-100.png */; };
 		64F573051A3FDB8D004A7125 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F573041A3FDB8D004A7125 /* LoginViewController.swift */; };
 		64F573071A3FE1DC004A7125 /* Bitmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F573061A3FE1DC004A7125 /* Bitmap.png */; };
 		64F573091A3FE29F004A7125 /* Lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F573081A3FE29F004A7125 /* Lock.png */; };
@@ -50,7 +49,6 @@
 		64556DA51A3E121D00F40277 /* RestauranterTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestauranterTabBarController.swift; sourceTree = "<group>"; };
 		6499B45E1A3FE82D008FA44F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		6499B4601A3FE8DB008FA44F /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
-		6499B4641A3FEBB4008FA44F /* purchase_order-100.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "purchase_order-100.png"; path = "../purchase_order-100.png"; sourceTree = "<group>"; };
 		64F573041A3FDB8D004A7125 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		64F573061A3FE1DC004A7125 /* Bitmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap.png; sourceTree = "<group>"; };
 		64F573081A3FE29F004A7125 /* Lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lock.png; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 				64556D661A3A42BA00F40277 /* Main.storyboard */,
 				64556DA41A3E113D00F40277 /* View Controllers */,
 				64556D691A3A42BA00F40277 /* Images.xcassets */,
-				6499B4641A3FEBB4008FA44F /* purchase_order-100.png */,
 				64F573061A3FE1DC004A7125 /* Bitmap.png */,
 				64F573081A3FE29F004A7125 /* Lock.png */,
 				64556D6B1A3A42BA00F40277 /* LaunchScreen.xib */,
@@ -228,7 +225,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				64556D681A3A42BA00F40277 /* Main.storyboard in Resources */,
-				6499B4651A3FEBB4008FA44F /* purchase_order-100.png in Resources */,
 				64556D6D1A3A42BA00F40277 /* LaunchScreen.xib in Resources */,
 				64F573091A3FE29F004A7125 /* Lock.png in Resources */,
 				64F573071A3FE1DC004A7125 /* Bitmap.png in Resources */,

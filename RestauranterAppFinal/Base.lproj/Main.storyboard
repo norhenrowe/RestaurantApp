@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="tp7-ZJ-0iv">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="i3J-Ka-F0F">
     <dependencies>
+        <deployment version="2048" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <scenes>
@@ -127,7 +128,7 @@
             </objects>
             <point key="canvasLocation" x="1278" y="-696"/>
         </scene>
-        <!--Pay-->
+        <!--Pay View Controller-->
         <scene sceneID="Xj6-4q-keG">
             <objects>
                 <viewController id="RLz-td-IxU" customClass="PayViewController" customModule="RestauranterAppFinal" customModuleProvider="target" sceneMemberID="viewController">
@@ -136,28 +137,40 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Pay" id="2gI-wr-YU6"/>
+                    <navigationItem key="navigationItem" id="Br4-oF-zeq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tgd-sx-RlK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3570" y="-1740"/>
+            <point key="canvasLocation" x="4102" y="-1740"/>
         </scene>
-        <!--Order-->
+        <!--Al's Pizza-->
         <scene sceneID="b0Q-RE-UR3">
             <objects>
                 <viewController id="UnE-dG-rfm" customClass="OrderViewController" customModule="RestauranterAppFinal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="k2h-4T-rPt">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="4so-9O-kzV">
+                                <rect key="frame" x="131" y="129" width="42" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Order" id="Qda-Ix-zfR"/>
+                    <navigationItem key="navigationItem" title="Al's Pizza" id="xSM-2F-jxT">
+                        <barButtonItem key="leftBarButtonItem" title="List" id="17Q-b3-sUm"/>
+                        <barButtonItem key="rightBarButtonItem" title="Basket" id="qhT-9A-5TU"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Jkv-yM-tOv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3570" y="-2384"/>
+            <point key="canvasLocation" x="4096" y="-2392"/>
         </scene>
-        <!--Deals-->
+        <!--Deals View Controller-->
         <scene sceneID="vMY-ZR-UmV">
             <objects>
                 <viewController id="eCT-ac-atY" customClass="DealsViewController" customModule="RestauranterAppFinal" customModuleProvider="target" sceneMemberID="viewController">
@@ -166,11 +179,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Deals" id="g1w-Vx-QvG"/>
+                    <navigationItem key="navigationItem" id="QFd-sM-Q7O"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Nx0-AM-lAY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3570" y="-1108"/>
+            <point key="canvasLocation" x="4102" y="-1108"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="fXs-eK-G8e">
@@ -229,25 +242,82 @@
             </objects>
             <point key="canvasLocation" x="2190" y="-696"/>
         </scene>
-        <!--Restauranter Tab Bar Controller-->
-        <scene sceneID="zwN-Tg-8Ov">
+        <!--Order-->
+        <scene sceneID="wXI-Vx-Y79">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="tp7-ZJ-0iv" customClass="RestauranterTabBarController" customModule="RestauranterAppFinal" customModuleProvider="target" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="uLo-qg-Wii" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Order" id="Qda-Ix-zfR"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="6db-NF-Kub">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="UnE-dG-rfm" kind="relationship" relationship="rootViewController" id="JDt-PR-dH1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vUo-b1-die" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3570" y="-2392"/>
+        </scene>
+        <!--Pay-->
+        <scene sceneID="fGC-mb-jkl">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="trB-ur-QEb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Pay" id="2gI-wr-YU6"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="oYe-Xj-DwJ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RLz-td-IxU" kind="relationship" relationship="rootViewController" id="bve-PA-Hva"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OPO-hQ-ADZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3570" y="-1740"/>
+        </scene>
+        <!--Deals-->
+        <scene sceneID="WK2-dS-MOW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5dC-CP-VYr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Deals" id="g1w-Vx-QvG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="uwS-MV-5c3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="eCT-ac-atY" kind="relationship" relationship="rootViewController" id="c8w-N5-Adj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CJs-W3-Qvs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3570" y="-1040"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="G0L-jr-VKe">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="i3J-Ka-F0F" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="XCW-rZ-kqB">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="m1x-eE-bbb">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="UnE-dG-rfm" kind="relationship" relationship="viewControllers" id="G4m-bz-FyN"/>
-                        <segue destination="RLz-td-IxU" kind="relationship" relationship="viewControllers" id="OkS-tO-hKZ"/>
-                        <segue destination="eCT-ac-atY" kind="relationship" relationship="viewControllers" id="bws-HF-CDB"/>
+                        <segue destination="uLo-qg-Wii" kind="relationship" relationship="viewControllers" id="KTG-zB-NL7"/>
+                        <segue destination="trB-ur-QEb" kind="relationship" relationship="viewControllers" id="uZ8-dh-Cyb"/>
+                        <segue destination="5dC-CP-VYr" kind="relationship" relationship="viewControllers" id="fIn-Zu-h7o"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="EVo-v9-6Yo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="59p-ai-fMB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2844" y="-1740"/>
+            <point key="canvasLocation" x="2946" y="-1796"/>
         </scene>
     </scenes>
     <resources>
