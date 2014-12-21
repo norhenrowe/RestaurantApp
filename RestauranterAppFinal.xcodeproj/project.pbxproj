@@ -16,7 +16,6 @@
 		64556DA11A3E111800F40277 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556DA01A3E111800F40277 /* PayViewController.swift */; };
 		64556DA31A3E112E00F40277 /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556DA21A3E112E00F40277 /* DealsViewController.swift */; };
 		64556DA61A3E121D00F40277 /* RestauranterTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556DA51A3E121D00F40277 /* RestauranterTabBarController.swift */; };
-		6470D0271A465E4B00C1D6FC /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0261A465E4B00C1D6FC /* LocationViewController.swift */; };
 		6470D0291A4661FD00C1D6FC /* OnlineOrderingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0281A4661FD00C1D6FC /* OnlineOrderingViewController.swift */; };
 		6470D02B1A46641500C1D6FC /* DriverDeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6470D02A1A46641500C1D6FC /* DriverDeliveryViewController.swift */; };
 		6470D02F1A46651800C1D6FC /* DeliveryManagerAllOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6470D02E1A46651800C1D6FC /* DeliveryManagerAllOrdersViewController.swift */; };
@@ -56,7 +55,6 @@
 		64556DA01A3E111800F40277 /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
 		64556DA21A3E112E00F40277 /* DealsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
 		64556DA51A3E121D00F40277 /* RestauranterTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestauranterTabBarController.swift; sourceTree = "<group>"; };
-		6470D0261A465E4B00C1D6FC /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationViewController.swift; path = ../LocationViewController.swift; sourceTree = "<group>"; };
 		6470D0281A4661FD00C1D6FC /* OnlineOrderingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineOrderingViewController.swift; sourceTree = "<group>"; };
 		6470D02A1A46641500C1D6FC /* DriverDeliveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDeliveryViewController.swift; sourceTree = "<group>"; };
 		6470D02E1A46651800C1D6FC /* DeliveryManagerAllOrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryManagerAllOrdersViewController.swift; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				6470D0321A466C2B00C1D6FC /* WaiterViewController.swift */,
 				64556D9E1A3E110900F40277 /* OrderViewController.swift */,
 				6470D02A1A46641500C1D6FC /* DriverDeliveryViewController.swift */,
-				6470D0261A465E4B00C1D6FC /* LocationViewController.swift */,
 				6470D02E1A46651800C1D6FC /* DeliveryManagerAllOrdersViewController.swift */,
 				6470D0301A46652D00C1D6FC /* DeliveryManagerDriversViewController.swift */,
 				6470D0281A4661FD00C1D6FC /* OnlineOrderingViewController.swift */,
@@ -277,7 +274,6 @@
 				6499B4671A4524DB008FA44F /* AddPaymentOptionsViewController.swift in Sources */,
 				6470D0311A46652D00C1D6FC /* DeliveryManagerDriversViewController.swift in Sources */,
 				6499B4611A3FE8DB008FA44F /* ForgotPasswordViewController.swift in Sources */,
-				6470D0271A465E4B00C1D6FC /* LocationViewController.swift in Sources */,
 				64F573051A3FDB8D004A7125 /* LoginViewController.swift in Sources */,
 				6499B45F1A3FE82D008FA44F /* SignUpViewController.swift in Sources */,
 				6470D0331A466C2B00C1D6FC /* WaiterViewController.swift in Sources */,
