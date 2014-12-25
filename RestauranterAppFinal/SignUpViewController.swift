@@ -7,9 +7,36 @@
 //
 
 import UIKit
+import Parse
 
 class SignUpViewController: UIViewController {
+    
+    @IBOutlet weak var emailField: UITextField!
+    @IBOutlet weak var passwordField: UITextField!
 
+    
+    @IBAction func submitTapped(sender: UIButton) {
+        let newUser = PFUser()
+        newUser.email = emailField.text
+        
+        newUser.username = newUser.email
+        newUser.password = passwordField.text
+        
+        newUser.signUpInBackgroundWithBlock { (success: Bool, err: NSError!) -> Void in
+            
+            if err == nil {  // visually alert user before transition
+                println("signed up..")
+                
+                self.navigationController?.popToRootViewControllerAnimated(true)
+            
+            } else {  // alert user
+                
+            }
+        }
+    }
+
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

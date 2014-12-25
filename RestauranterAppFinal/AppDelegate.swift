@@ -1,21 +1,49 @@
+import Parse
+import UIKit
+
 //
 //  AppDelegate.swift
 //  RestauranterAppFinal
 //
 //  Created by Duncan Tilka on 12/11/14.
-//  Copyright (c) 2014 Duncan Tilka. All rights reserved.
+//  Copyright (c) 2014 Duncan Tilka and Kendrick Ledet. All rights reserved.
 //
 
-import UIKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
+    let parseAppId = "huWlZMZLIzwl4XWEg9zYk44Qdx2ZwANst62TUzFd"
+    let parseClientKey = "Q6DuZCbHclL8MVn5mbhff64LbZwrNAFo7iQBW3k9"
+    
+    let parseUserClassName = "User"
 
+    var currentUser: PFUser?
+    
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+
+        Parse.setApplicationId(parseAppId, clientKey: parseClientKey)
+//        Parse.enableLocalDatastore()  // for pinning
+        
+        PFAnalytics.trackAppOpenedWithLaunchOptionsInBackground(launchOptions, block: nil)
+        
+        
+        // TODO: Create Model class for Parse User class
+        /*
+        let testUser = PFUser()
+        
+        testUser.email = "test@lel.com"
+        testUser.username = testUser.email
+        
+        testUser.password = "testlel"
+//        testUser["deviceId"] = UIDevice.currentDevice().identifierForVendor.UUIDString
+
+        
+        testUser.signUp()
+        */
+
         return true
     }
 
