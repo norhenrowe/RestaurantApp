@@ -29,6 +29,10 @@
 		64F573051A3FDB8D004A7125 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F573041A3FDB8D004A7125 /* LoginViewController.swift */; };
 		64F573071A3FE1DC004A7125 /* Bitmap.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F573061A3FE1DC004A7125 /* Bitmap.png */; };
 		64F573091A3FE29F004A7125 /* Lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 64F573081A3FE29F004A7125 /* Lock.png */; };
+		64FA41E71A5647A100D1305D /* SideMenuWaiterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FA41E61A5647A100D1305D /* SideMenuWaiterViewController.swift */; };
+		64FA41E91A564C7F00D1305D /* SideMenuCustomerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FA41E81A564C7F00D1305D /* SideMenuCustomerViewController.swift */; };
+		64FA41EB1A59C02E00D1305D /* TrackerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FA41EA1A59C02E00D1305D /* TrackerViewController.swift */; };
+		64FA41ED1A59C18700D1305D /* IPadHostessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FA41EC1A59C18700D1305D /* IPadHostessViewController.swift */; };
 		CE1DA7E11A4B98A6002ACF2C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1DA7E01A4B98A6002ACF2C /* AudioToolbox.framework */; };
 		CE1DA7E31A4B98AC002ACF2C /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1DA7E21A4B98AC002ACF2C /* CFNetwork.framework */; };
 		CE1DA7E51A4B98B8002ACF2C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1DA7E41A4B98B8002ACF2C /* CoreGraphics.framework */; };
@@ -84,6 +88,10 @@
 		64F573041A3FDB8D004A7125 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		64F573061A3FE1DC004A7125 /* Bitmap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bitmap.png; sourceTree = "<group>"; };
 		64F573081A3FE29F004A7125 /* Lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lock.png; sourceTree = "<group>"; };
+		64FA41E61A5647A100D1305D /* SideMenuWaiterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuWaiterViewController.swift; sourceTree = "<group>"; };
+		64FA41E81A564C7F00D1305D /* SideMenuCustomerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCustomerViewController.swift; sourceTree = "<group>"; };
+		64FA41EA1A59C02E00D1305D /* TrackerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrackerViewController.swift; sourceTree = "<group>"; };
+		64FA41EC1A59C18700D1305D /* IPadHostessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IPadHostessViewController.swift; sourceTree = "<group>"; };
 		CE1DA7E01A4B98A6002ACF2C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		CE1DA7E21A4B98AC002ACF2C /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		CE1DA7E41A4B98B8002ACF2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -201,11 +209,16 @@
 			isa = PBXGroup;
 			children = (
 				6470D0321A466C2B00C1D6FC /* WaiterViewController.swift */,
+				64FA41E81A564C7F00D1305D /* SideMenuCustomerViewController.swift */,
+				64FA41E61A5647A100D1305D /* SideMenuWaiterViewController.swift */,
 				64556D9E1A3E110900F40277 /* OrderViewController.swift */,
 				6470D02A1A46641500C1D6FC /* DriverDeliveryViewController.swift */,
+				64556DA21A3E112E00F40277 /* DealsViewController.swift */,
 				6470D02E1A46651800C1D6FC /* DeliveryManagerAllOrdersViewController.swift */,
 				6470D0301A46652D00C1D6FC /* DeliveryManagerDriversViewController.swift */,
 				6470D0281A4661FD00C1D6FC /* OnlineOrderingViewController.swift */,
+				64FA41EC1A59C18700D1305D /* IPadHostessViewController.swift */,
+				64FA41EA1A59C02E00D1305D /* TrackerViewController.swift */,
 				64556DA51A3E121D00F40277 /* RestauranterTabBarController.swift */,
 				64F573041A3FDB8D004A7125 /* LoginViewController.swift */,
 				6499B4601A3FE8DB008FA44F /* ForgotPasswordViewController.swift */,
@@ -214,7 +227,6 @@
 				6499B4681A45282B008FA44F /* CurrentOrderViewController.swift */,
 				64556DA01A3E111800F40277 /* PayViewController.swift */,
 				6499B4661A4524DB008FA44F /* AddPaymentOptionsViewController.swift */,
-				64556DA21A3E112E00F40277 /* DealsViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -343,11 +355,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				6499B46B1A452D4E008FA44F /* CurrentOrderNotPlacedViewController.swift in Sources */,
+				64FA41EB1A59C02E00D1305D /* TrackerViewController.swift in Sources */,
 				6499B4671A4524DB008FA44F /* AddPaymentOptionsViewController.swift in Sources */,
+				64FA41E91A564C7F00D1305D /* SideMenuCustomerViewController.swift in Sources */,
 				6470D0311A46652D00C1D6FC /* DeliveryManagerDriversViewController.swift in Sources */,
 				6499B4611A3FE8DB008FA44F /* ForgotPasswordViewController.swift in Sources */,
 				64F573051A3FDB8D004A7125 /* LoginViewController.swift in Sources */,
 				6499B45F1A3FE82D008FA44F /* SignUpViewController.swift in Sources */,
+				64FA41ED1A59C18700D1305D /* IPadHostessViewController.swift in Sources */,
 				6470D0331A466C2B00C1D6FC /* WaiterViewController.swift in Sources */,
 				64556DA31A3E112E00F40277 /* DealsViewController.swift in Sources */,
 				6470D0291A4661FD00C1D6FC /* OnlineOrderingViewController.swift in Sources */,
@@ -356,6 +371,7 @@
 				64556DA61A3E121D00F40277 /* RestauranterTabBarController.swift in Sources */,
 				64556D631A3A42BA00F40277 /* AppDelegate.swift in Sources */,
 				64556DA11A3E111800F40277 /* PayViewController.swift in Sources */,
+				64FA41E71A5647A100D1305D /* SideMenuWaiterViewController.swift in Sources */,
 				6499B4691A45282B008FA44F /* CurrentOrderViewController.swift in Sources */,
 				64556D9F1A3E110900F40277 /* OrderViewController.swift in Sources */,
 			);
