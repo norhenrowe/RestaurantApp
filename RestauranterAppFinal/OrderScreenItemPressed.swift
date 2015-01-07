@@ -33,3 +33,8 @@ class OrderScreenItemPressed: UIViewController {
     */
 
 }
+
+
+// there will be extras that when tapped collapse a cell for example: Garnish if tapped would have a dropdown with checkboxes next to Honey Mustard, Mustard, Mayo, Ketchup, Lettuce,etc. with an "Apply Changes" button at the bottom then the cell collapses and it shows a sublabel below the Label Garnish.
+//Message for the Chef (Optional) drops down with a notes view and you can see exactly what you are typing for the cook to know
+//Once ordered the item will slide into the Pay section and have a badge for the number of orders
