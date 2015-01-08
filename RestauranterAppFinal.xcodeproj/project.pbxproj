@@ -16,6 +16,11 @@
 		64556DA11A3E111800F40277 /* PayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556DA01A3E111800F40277 /* PayViewController.swift */; };
 		64556DA31A3E112E00F40277 /* DealsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556DA21A3E112E00F40277 /* DealsViewController.swift */; };
 		64556DA61A3E121D00F40277 /* RestauranterTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64556DA51A3E121D00F40277 /* RestauranterTabBarController.swift */; };
+		6460CB221A5E379E0094E34F /* shopping_basket-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 6460CB211A5E379E0094E34F /* shopping_basket-50.png */; };
+		6460CB251A5E43010094E34F /* MyTables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460CB241A5E43010094E34F /* MyTables.swift */; };
+		6460CB271A5E43200094E34F /* WaiterNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460CB261A5E43200094E34F /* WaiterNotifications.swift */; };
+		6460CB291A5E445F0094E34F /* WaiterToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460CB281A5E445F0094E34F /* WaiterToDoList.swift */; };
+		6460CB2B1A5E45560094E34F /* AddNewCustomer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6460CB2A1A5E45550094E34F /* AddNewCustomer.swift */; };
 		6470D0291A4661FD00C1D6FC /* OnlineOrderingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6470D0281A4661FD00C1D6FC /* OnlineOrderingViewController.swift */; };
 		6470D02B1A46641500C1D6FC /* DriverDeliveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6470D02A1A46641500C1D6FC /* DriverDeliveryViewController.swift */; };
 		6470D02F1A46651800C1D6FC /* DeliveryManagerAllOrdersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6470D02E1A46651800C1D6FC /* DeliveryManagerAllOrdersViewController.swift */; };
@@ -80,6 +85,11 @@
 		64556DA01A3E111800F40277 /* PayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayViewController.swift; sourceTree = "<group>"; };
 		64556DA21A3E112E00F40277 /* DealsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DealsViewController.swift; sourceTree = "<group>"; };
 		64556DA51A3E121D00F40277 /* RestauranterTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestauranterTabBarController.swift; sourceTree = "<group>"; };
+		6460CB211A5E379E0094E34F /* shopping_basket-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "shopping_basket-50.png"; sourceTree = "<group>"; };
+		6460CB241A5E43010094E34F /* MyTables.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTables.swift; sourceTree = "<group>"; };
+		6460CB261A5E43200094E34F /* WaiterNotifications.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaiterNotifications.swift; sourceTree = "<group>"; };
+		6460CB281A5E445F0094E34F /* WaiterToDoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WaiterToDoList.swift; sourceTree = "<group>"; };
+		6460CB2A1A5E45550094E34F /* AddNewCustomer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewCustomer.swift; sourceTree = "<group>"; };
 		6470D0281A4661FD00C1D6FC /* OnlineOrderingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnlineOrderingViewController.swift; sourceTree = "<group>"; };
 		6470D02A1A46641500C1D6FC /* DriverDeliveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DriverDeliveryViewController.swift; sourceTree = "<group>"; };
 		6470D02E1A46651800C1D6FC /* DeliveryManagerAllOrdersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeliveryManagerAllOrdersViewController.swift; sourceTree = "<group>"; };
@@ -178,12 +188,14 @@
 		64556D5F1A3A42BA00F40277 /* RestauranterAppFinal */ = {
 			isa = PBXGroup;
 			children = (
+				6460CB231A5E42070094E34F /* WaiterViewControllers */,
 				64FA41EE1A5C42B400D1305D /* Containers For Segmented Controllers */,
 				64556D621A3A42BA00F40277 /* AppDelegate.swift */,
 				64556D661A3A42BA00F40277 /* Main.storyboard */,
 				64556DA41A3E113D00F40277 /* View Controllers */,
 				64556D691A3A42BA00F40277 /* Images.xcassets */,
 				64F573061A3FE1DC004A7125 /* Bitmap.png */,
+				6460CB211A5E379E0094E34F /* shopping_basket-50.png */,
 				64F573081A3FE29F004A7125 /* Lock.png */,
 				64556D6B1A3A42BA00F40277 /* LaunchScreen.xib */,
 				64556D601A3A42BA00F40277 /* Supporting Files */,
@@ -243,6 +255,17 @@
 				6499B4661A4524DB008FA44F /* AddPaymentOptionsViewController.swift */,
 			);
 			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		6460CB231A5E42070094E34F /* WaiterViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6460CB241A5E43010094E34F /* MyTables.swift */,
+				6460CB281A5E445F0094E34F /* WaiterToDoList.swift */,
+				6460CB2A1A5E45550094E34F /* AddNewCustomer.swift */,
+				6460CB261A5E43200094E34F /* WaiterNotifications.swift */,
+			);
+			name = WaiterViewControllers;
 			sourceTree = "<group>";
 		};
 		64FA41EE1A5C42B400D1305D /* Containers For Segmented Controllers */ = {
@@ -359,6 +382,7 @@
 				64556D6D1A3A42BA00F40277 /* LaunchScreen.xib in Resources */,
 				64F573091A3FE29F004A7125 /* Lock.png in Resources */,
 				64F573071A3FE1DC004A7125 /* Bitmap.png in Resources */,
+				6460CB221A5E379E0094E34F /* shopping_basket-50.png in Resources */,
 				64556D6A1A3A42BA00F40277 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -379,12 +403,15 @@
 			files = (
 				6499B46B1A452D4E008FA44F /* CurrentOrderNotPlacedViewController.swift in Sources */,
 				64FA41F01A5C42E700D1305D /* MyOrdersContainer-Tracker.swift in Sources */,
+				6460CB2B1A5E45560094E34F /* AddNewCustomer.swift in Sources */,
 				64FA41EB1A59C02E00D1305D /* TrackerViewController.swift in Sources */,
 				6499B4671A4524DB008FA44F /* AddPaymentOptionsViewController.swift in Sources */,
+				6460CB271A5E43200094E34F /* WaiterNotifications.swift in Sources */,
 				64FA41E91A564C7F00D1305D /* SideMenuCustomerViewController.swift in Sources */,
 				6470D0311A46652D00C1D6FC /* DeliveryManagerDriversViewController.swift in Sources */,
 				6499B4611A3FE8DB008FA44F /* ForgotPasswordViewController.swift in Sources */,
 				64F573051A3FDB8D004A7125 /* LoginViewController.swift in Sources */,
+				6460CB291A5E445F0094E34F /* WaiterToDoList.swift in Sources */,
 				6499B45F1A3FE82D008FA44F /* SignUpViewController.swift in Sources */,
 				64FA41ED1A59C18700D1305D /* IPadHostessViewController.swift in Sources */,
 				64FA41F21A5C430E00D1305D /* MyOrderHistoryContainer-Tracker.swift in Sources */,
@@ -399,6 +426,7 @@
 				64556DA61A3E121D00F40277 /* RestauranterTabBarController.swift in Sources */,
 				64556D631A3A42BA00F40277 /* AppDelegate.swift in Sources */,
 				64556DA11A3E111800F40277 /* PayViewController.swift in Sources */,
+				6460CB251A5E43010094E34F /* MyTables.swift in Sources */,
 				64FA41E71A5647A100D1305D /* SideMenuWaiterViewController.swift in Sources */,
 				6499B4691A45282B008FA44F /* CurrentOrderViewController.swift in Sources */,
 				64556D9F1A3E110900F40277 /* OrderViewController.swift in Sources */,

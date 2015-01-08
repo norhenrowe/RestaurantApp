@@ -1,14 +1,14 @@
 //
-//  LocationBasePageAfterLogin.swift
+//  WaiterToDoList.swift
 //  RestauranterAppFinal
 //
-//  Created by Duncan Tilka on 1/6/15.
+//  Created by Duncan Tilka on 1/7/15.
 //  Copyright (c) 2015 Duncan Tilka. All rights reserved.
 //
 
 import UIKit
 
-class LocationBasePageAfterLogin: UIViewController {
+class WaiterToDoList: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,8 +33,3 @@ class LocationBasePageAfterLogin: UIViewController {
     */
 
 }
-
-
-
-
-//Entering loacation address will pull up nearby restaurants by distance and let the customer choose their restaurant from a list. By hitting Current location a message will pop up for the user with a picture of the restaurant and say "Are you currently at \(Restaurant)?" If hitting yes then the customer will be redirected to the page for that specific restaurant automatically
