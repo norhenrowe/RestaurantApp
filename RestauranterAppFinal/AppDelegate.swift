@@ -15,8 +15,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    let parseAppId = "huWlZMZLIzwl4XWEg9zYk44Qdx2ZwANst62TUzFd"
-    let parseClientKey = "Q6DuZCbHclL8MVn5mbhff64LbZwrNAFo7iQBW3k9"
+    let parseAppId = "SqR0L53IexI20SSIV2r3nWCI7WQkbjgtBZkiFJhq"
+    let parseClientKey = "mLqbOByJypTIrrHP8yWLaJYpRqp0kD5FAapKvNvg"
     
     let parseUserClassName = "User"
 
