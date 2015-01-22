@@ -1081,7 +1081,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Order" id="Qjs-gc-DXV"/>
+                    <tabBarItem key="tabBarItem" title="Pay" id="Qjs-gc-DXV"/>
                     <navigationItem key="navigationItem" title="Current Order" id="Qg8-RX-0Cq">
                         <barButtonItem key="backBarButtonItem" title="&lt;" id="EQl-BQ-uSN"/>
                     </navigationItem>
@@ -1505,11 +1505,11 @@
             </objects>
             <point key="canvasLocation" x="3174" y="-3188"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Pay-->
         <scene sceneID="fGC-mb-jkl">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="trB-ur-QEb" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" id="2gI-wr-YU6">
+                    <tabBarItem key="tabBarItem" title="Pay" id="2gI-wr-YU6">
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
@@ -1526,11 +1526,11 @@
             </objects>
             <point key="canvasLocation" x="4102" y="-1740"/>
         </scene>
-        <!--Tracker-->
+        <!--Track-->
         <scene sceneID="WK2-dS-MOW">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5dC-CP-VYr" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Tracker" id="g1w-Vx-QvG"/>
+                    <tabBarItem key="tabBarItem" title="Track" id="g1w-Vx-QvG"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="uwS-MV-5c3">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
@@ -2479,6 +2479,6 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="DXb-bD-pkE"/>
-        <segue reference="Jh9-cH-UvD"/>
+        <segue reference="qIB-UR-r5J"/>
     </inferredMetricsTieBreakers>
 </document>
